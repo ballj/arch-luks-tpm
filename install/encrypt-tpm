@@ -4,6 +4,7 @@ build() {
     local mod
 
     add_module "tpm_crb"
+    add_module "tpm_tis"
 
     add_binary "tpm2_unseal"
     add_binary "/usr/lib/libtss2-tcti-device.so"
